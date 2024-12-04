@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar CSS - Tema Pantai</title>
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #e0f7fa; /* Latar belakang biru muda untuk tema pantai */
+            margin: 0;
+            padding: 0;
+            color: #333; /* Teks gelap untuk kontras */
+        }
+        
+        header {
+            background-color: #00796b; /* Warna hijau untuk header */
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            background-image: url('https://example.com/beach-background.jpg'); /* Ganti dengan gambar latar belakang pantai */
+            background-size: cover;
+            background-position: center;
+        }
+        
+        nav {
+            background-color: #004d40; /* Warna hijau gelap untuk nav */
+            padding: 10px 0;
+        }
+        
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        
+        nav ul li {
+            margin: 0 15px;
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        nav ul li a:hover {
+            color: #ffcc00; /* Warna kuning saat hover */
+        }
+        
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            background: rgba(255, 255, 255, 0.9); /* Transparan untuk efek lembut */
+            padding: 20px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #004d40; /* Warna hijau gelap untuk footer */
+            margin-top: 20px;
+            color: white; /* Teks putih untuk footer */
+        }
+        
+        h2, h3 {
+            color: #00796b; /* Warna hijau untuk judul */
+        }
+        
+        p {
+            line-height: 1.6;
+            color: #555; /* Teks abu-abu gelap */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Selamat Datang di Tutorial CSS Tema Pantai</h1>
+        <p>Pelajari cara menggunakan CSS untuk mendesain website yang menarik dengan tema pantai!</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="html.html">HTML</a></li>
+            <li><a href="css.html">CSS</a></li>
+            <li><a href="php.html">PHP</a></li>
+            <li><a href="javascript.html">JavaScript</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <h2>Pengenalan CSS</h2>
+        <p>CSS (Cascading Style Sheets) adalah bahasa yang digunakan untuk mendesain dan mengatur tampilan halaman web. Dengan CSS, Anda dapat mengontrol tata letak, warna, font, dan banyak aspek lainnya dari elemen HTML.</p>
+        
+        <h3>Keunggulan CSS</h3>
+        <p>1. Memudahkan pengaturan tampilan dengan fleksibilitas tinggi.</p>
+        <p>2. Mengurangi ukuran file HTML dan mempercepat pemuatan halaman.</p>
+        <p>3. Memisahkan konten dari desain, sehingga lebih mudah untuk mengelola.</p>
+        
+        <h3>Kekurangan CSS</h3>
+        <p>1. Perbedaan tampilan di berbagai browser.</p>
+        <p>2. Beberapa browser lama mungkin tidak mendukung CSS dengan baik.</p>
+        
+        <h3>Cara Kerja CSS</h3>
+        <p>1. Memuat HTML, browser mengambil dokumen HTML.</p>
+        <p>2. Mengurai HTML menjadi Document Object Model (DOM) dan memuat CSS.</p>
+        <p>3. Memuat CSS, termasuk gambar dan video.</p>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Tutorial

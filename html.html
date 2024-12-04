@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar HTML - Tema Gelap</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #121212; /* Latar belakang gelap */
+            margin: 0;
+            padding: 0;
+            color: #e0e0e0; /* Teks terang */
+        }
+        
+        .wrap {
+            max-width: 900px;
+            margin: auto;
+            background: rgba(30, 30, 30, 0.9); /* Transparan untuk melihat latar belakang */
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        
+        .header {
+            background-image: url('https://example.com/dark-space-background.jpg'); /* Ganti dengan gambar latar belakang luar angkasa gelap */
+            background-size: cover;
+            background-position: center;
+            color: #ffffff; /* Teks putih untuk header */
+            text-align: center;
+            padding: 30px 0;
+        }
+        
+        .menu {
+            background-color: #1c1c1c; /* Warna gelap untuk menu */
+        }
+        
+        .menu ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+        }
+        
+        .menu ul li {
+            margin: 0 15px;
+        }
+        
+        .menu ul li a {
+            color: #ffffff; /* Teks putih untuk link */
+            text-decoration: none;
+            padding: 15px;
+            transition: background-color 0.3s;
+        }
+        
+        .menu ul li a:hover {
+            background-color: #ff8f00; /* Warna oranye saat hover */
+            border-radius: 5px;
+        }
+        
+        .content {
+            padding: 20px;
+        }
+        
+        .footer {
+            background-color: #1c1c1c; /* Warna gelap untuk footer */
+            padding: 20px;
+            text-align: center;
+        }
+        
+        h2, h3 {
+            color: #ffcc00; /* Warna kuning untuk judul */
+        }
+        
+        p {
+            line-height: 1.6;
+            color: #dddddd; /* Teks abu-abu terang */
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="header">
+            <h1>Selamat Datang di Panduan HTML</h1>
+            <p>Temukan dasar-dasar HTML untuk membangun website yang menarik!</p>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="html.html">HTML</a></li>
+                <li><a href="css.html">CSS</a></li>
+                <li><a href="php.html">PHP</a></li>
+                <li><a href="javascript.html">JavaScript</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <h2>Pengenalan HTML</h2>
+            <p>HTML, atau Hypertext Markup Language, adalah bahasa markup yang digunakan untuk menyusun struktur halaman web. HTML berfungsi sebagai fondasi utama dalam membangun kerangka halaman web sebelum kita membahas aspek desain dan fungsionalitas lebih lanjut.</p>
+        </div>
+        <div class="footer">
+            <h3>Fungsi Utama HTML</h3>
+            <p>Setelah memahami dasar-dasar HTML, penting untuk mengetahui fungsinya dalam pengembangan situs web. HTML memungkinkan pengembang untuk membangun tampilan web yang terstruktur dengan menggunakan metode semantik, yang memudahkan dalam proses pengembangan dan pemeliharaan.</p>
+            <p>HTML dapat bekerja sama dengan CSS (Cascading Style Sheets) dan JavaScript. HTML menyusun struktur halaman, CSS memberikan gaya visual seperti warna dan font, sementara JavaScript menambahkan interaktivitas untuk meningkatkan pengalaman pengguna.</p>
+        </div>
+    </div>
+</body>
+</html>
